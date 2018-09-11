@@ -38,11 +38,6 @@ app.layout = html.Div(children=[
 
     html.Div(
         [
-            # dcc.Markdown(
-            #     '''
-            #     ### Movie Recommendations
-            #     '''.replace('  ', '')
-            # ),
 
             html.Img(
                 src='https://raw.githubusercontent.com/mark-salama/rs-sqaured/master/logo.png?raw=true',
@@ -131,7 +126,7 @@ app.layout = html.Div(children=[
                         4: '4',
                         5: '5'
                         },
-                        value=[3.5, 5])
+                        value=[2, 5])
                 ], 
 
                 style={'width':475, 'display':'inline-block', 'margin': 5,}
