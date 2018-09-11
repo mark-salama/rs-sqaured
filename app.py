@@ -32,6 +32,8 @@ app.css.append_css({
     )
 })
 
+app.title = 'Movie Recommender'
+
 app.layout = html.Div(children=[
 
     html.Div(
@@ -43,13 +45,14 @@ app.layout = html.Div(children=[
             # ),
 
             html.Img(
-                src='logo.png',
+                src='https://raw.githubusercontent.com/mark-salama/rs-sqaured/master/logo.png?raw=true',
                 # className='one columns',
                 style={
-                    'height': '100',
+                    'height': '125',
                     # 'width': '225',
                     'float': 'left',
                     'position': 'relative',
+                    'margin': 25
                 },
             ),
 
