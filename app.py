@@ -21,7 +21,8 @@ def make_dash_table(df):
         table.append(html.Tr(html_row))
     return table
 
-app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
 
 app.index_string = '''
 <!DOCTYPE html>
